@@ -1,0 +1,21 @@
+
+.imgContainer {
+    width: 100px;
+    margin-top: 3px;
+    border-radius: 4%;
+    background-color: #ca6b6b;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.imgContainer:hover {
+    transform: translateY(-3px);
+}
+
+.text {
+    color: rgb(139, 6, 6);
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
